@@ -1,0 +1,17 @@
+my_dict = {
+            "CRINGE": "Garip ya da utandırıcı bir şey",
+            "LOL": "Komik bir şeye verilen cevap",
+            "WDYM":"Ne demek istiyorsun",
+            "P2W":"Öde ve kazan",
+            "BTW":"Bu arada",
+            "GG": "İyi Oyundu",
+            "IDK":"Bilmiyorum",
+            "AFK": "Ekran başında değilim",
+            "BRB": "be right back"
+            }
+search = input("sözlükte yer alan bir kelimeyi yaz ve anlamını öğren" ).upper()
+
+if search in my_dict.keys():
+      print(my_dict[search])  
+else:
+    print("kelime listede bulunmamaktadır şu adresten öneride veya istekte bulunabilirsiniz:www.mydictoneri.com" ) 
